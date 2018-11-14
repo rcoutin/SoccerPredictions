@@ -2,6 +2,8 @@ import sqlite3 as db
 import pandas as pd
 conn = db.connect('soccer/database.sqlite')
 
+def create_teams(name, year):
+
 
 all_players_info = pd.read_sql_query("""select  p.player_name,pa2.* from player_attributes pa2, player p where p.player_api_id = pa2.player_api_id and
 (pa2.player_api_id, pa2.date) in (
@@ -22,7 +24,6 @@ select pa.player_api_id, pa.date, min(abs(strftime('%s',pa.date) - strftime('%s'
 
 ptm = pd.read_csv('statbunker-football-stats/Player Stats 2014-15.csv')
 ptm = ptm[(ptm['Type Of Goal'] == 'Player') & (ptm['League'] == 'Premier League')]
-
 
 #caller.set_index('key').join(other.set_index('key'))
 joined = all_players_info.set_index('player_name').join(ptm.set_index('Player'), how='inner')
