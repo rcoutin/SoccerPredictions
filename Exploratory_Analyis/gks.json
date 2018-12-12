@@ -1,0 +1,509 @@
+{
+	"2014": {
+		"Chelsea": {
+			"Petr Cech": "GK",
+			"Thibaut Courtois": "GK",
+			"Mark Schwarzer": "GK",
+			"Hilario": "GK",
+			"Jamal Blackman": "GK"
+		},
+		"Manchester United": {
+			"De Gea": "GK",
+			"Anders Lindegaard": "GK",
+			"Ben Amos": "GK",
+			"Sam Johnstone": "GK"
+		},
+		"Tottenham Hotspur": {
+			"Hugo Lloris": "GK",
+			"Michel Vorm": "GK",
+			"Brad Friedel": "GK",
+			"Gomes": "GK",
+			"Jordan Archer": "GK"
+		},
+		"Everton": {
+			"Tim Howard": "GK",
+			"Joel": "GK",
+			"Mason Springthorpe": "GK"
+		},
+		"Manchester City": {
+			"Joe Hart": "GK",
+			"Wilfredo Caballero": "GK",
+			"Costel Pantilimon": "GK",
+			"Richard Wright": "GK",
+			"Eirik Holmen Johansen": "GK"
+		},
+		"Liverpool": {
+			"Jose Reina": "GK",
+			"Simon Mignolet": "GK",
+			"Brad Jones": "GK",
+			"Danny Ward": "GK"
+		},
+		"Cardiff City": {
+			"David Marshall": "GK",
+			"Joe Lewis": "GK",
+			"Simon Moore": "GK"
+		},
+		"Newcastle United": {
+			"Tim Krul": "GK",
+			"Rob Elliot": "GK",
+			"Jak Alnwick": "GK"
+		},
+		"Stoke City": {
+			"Asmir Begovic": "GK",
+			"Thomas Sorensen": "GK",
+			"Jack Butland": "GK",
+			"Daniel Bachmann": "GK"
+		},
+		"Swansea City": {
+			"Michel Vorm": "GK",
+			"Lukasz Fabianski": "GK",
+			"Gerhard Tremmel": "GK",
+			"David Cornell": "GK"
+		},
+		"Arsenal": {
+			"Wojciech Szczesny": "GK",
+			"Emiliano Viviano": "GK",
+			"Lukasz Fabianski": "GK",
+			"David Ospina": "GK",
+			"Damian Martinez": "GK"
+		},
+		"Aston Villa": {
+			"Brad Guzan": "GK",
+			"Shay Given": "GK",
+			"Benjamin Siegrist": "GK",
+			"Jed Steer": "GK"
+		},
+		"Fulham": {
+			"Maarten Stekelenburg": "GK",
+			"David Stockdale": "GK",
+			"Neil Etheridge": "GK"
+		},
+		"West Ham United": {
+			"Adrian": "GK",
+			"Jussi Jaaskelainen": "GK",
+			"Stephen Henderson": "GK",
+			"Raphael Spiegel": "GK"
+		},
+		"Norwich City": {
+			"John Ruddy": "GK",
+			"Mark Bunn": "GK",
+			"Declan Rudd": "GK",
+			"Carlo Nash": "GK"
+		},
+		"West Bromwich Albion": {
+			"Ben Foster": "GK",
+			"Boaz Myhill": "GK",
+			"Luke Daniels": "GK"
+		},
+		"Sunderland": {
+			"Oscar Ustari": "GK",
+			"Costel Pantilimon": "GK",
+			"Keiren Westwood": "GK",
+			"Vito Mannone": "GK",
+			"Jordan Pickford": "GK"
+		},
+		"Southampton": {
+			"Artur Boruc": "GK",
+			"Fraser Forster": "GK",
+			"Kelvin Davis": "GK",
+			"Paulo Gazzaniga": "GK"
+		},
+		"Hull City": {
+			"Allan McGregor": "GK",
+			"Steve Harper": "GK",
+			"Eldin Jakupovic": "GK"
+		},
+		"Crystal Palace": {
+			"Julian Speroni": "GK",
+			"Wayne Hennessey": "GK",
+			"Neil Alexander": "GK",
+			"Lewis Price": "GK"
+		}
+	},
+	"2015": {
+		"Manchester United": {
+			"De Gea": "GK",
+			"Anders Lindegaard": "GK",
+			"Sergio Romero": "GK",
+			"Ben Amos": "GK"
+		},
+		"Spurs": {
+			"Hugo Lloris": "GK",
+			"Michel Vorm": "GK",
+			"Brad Friedel": "GK"
+		},
+		"Chelsea": {
+			"Thibaut Courtois": "GK",
+			"Petr Cech": "GK",
+			"Asmir Begovic": "GK",
+			"Mark Schwarzer": "GK"
+		},
+		"Arsenal": {
+			"Petr Cech": "GK",
+			"Wojciech Szczesny": "GK",
+			"David Ospina": "GK",
+			"Damian Martinez": "GK",
+			"Josh Vickers": "GK"
+		},
+		"Manchester City": {
+			"Joe Hart": "GK",
+			"Willy Caballero": "GK",
+			"Richard Wright": "GK",
+			"Angus Gunn": "GK",
+			"Ian Lawlor": "GK"
+		},
+		"Everton": {
+			"Tim Howard": "GK",
+			"Joel Robles": "GK",
+			"Jindrich Stanek": "GK"
+		},
+		"West Ham": {
+			"Adrian": "GK",
+			"Jussi Jaaskelainen": "GK",
+			"Darren Randolph": "GK",
+			"Raphael Spiegel": "GK"
+		},
+		"Stoke City": {
+			"Asmir Begovic": "GK",
+			"Shay Given": "GK",
+			"Jack Butland": "GK",
+			"Thomas Sorensen": "GK",
+			"Jakob Haugaard": "GK",
+			"Dale Eve": "GK"
+		},
+		"Liverpool": {
+			"Simon Mignolet": "GK",
+			"Brad Jones": "GK",
+			"Adam Bogdan": "GK"
+		},
+		"Swansea City": {
+			"Lukasz Fabianski": "GK",
+			"Gerhard Tremmel": "GK",
+			"Kristoffer Nordfeldt": "GK",
+			"David Cornell": "GK",
+			"Josh Vickers": "GK"
+		},
+		"Newcastle United": {
+			"Tim Krul": "GK",
+			"Rob Elliot": "GK",
+			"Jak Alnwick": "GK"
+		},
+		"Aston Villa": {
+			"Brad Guzan": "GK",
+			"Shay Given": "GK",
+			"Mark Bunn": "GK",
+			"Benjamin Siegrist": "GK"
+		},
+		"West Brom": {
+			"Ben Foster": "GK",
+			"Anders Lindegaard": "GK",
+			"Boaz Myhill": "GK",
+			"Luke Daniels": "GK",
+			"Jack Rose": "GK"
+		},
+		"Southampton": {
+			"Maarten Stekelenburg": "GK",
+			"Fraser Forster": "GK",
+			"Artur Boruc": "GK",
+			"Kelvin Davis": "GK",
+			"Paulo Gazzaniga": "GK"
+		},
+		"Leicester City": {
+			"Kasper Schmeichel": "GK",
+			"Mark Schwarzer": "GK",
+			"Ben Hamer": "GK",
+			"Adam Smith": "GK"
+		},
+		"Sunderland": {
+			"Costel Pantilimon": "GK",
+			"Vito Mannone": "GK",
+			"Joel Dixon": "GK",
+			"Maksymilian Stryjek": "GK"
+		},
+		"QPR": {
+			"Rob Green": "GK",
+			"Alex McCarthy": "GK",
+			"Brian Murphy": "GK"
+		},
+		"Crystal Palace": {
+			"Julian Speroni": "GK",
+			"Alex McCarthy": "GK",
+			"Wayne Hennessey": "GK",
+			"Lewis Price": "GK",
+			"Chris Kettings": "GK"
+		},
+		"Hull City": {
+			"Allan McGregor": "GK",
+			"Steve Harper": "GK",
+			"Eldin Jakupovic": "GK"
+		},
+		"Burnley": {
+			"Tom Heaton": "GK",
+			"Matt Gilks": "GK",
+			"Alex Cisak": "GK",
+			"Conor Mitchell": "GK"
+		}
+	},
+	"2016": {
+		"Manchester United": {
+			"De Gea": "GK",
+			"Victor Valdes": "GK",
+			"Sergio Romero": "GK",
+			"Sam Johnstone": "GK"
+		},
+		"Arsenal": {
+			"Petr Cech": "GK",
+			"David Ospina": "GK",
+			"Wojciech Szczesny": "GK",
+			"Emiliano Martinez": "GK",
+			"Ryan Huddart": "GK",
+			"Matt Macey": "GK"
+		},
+		"Spurs": {
+			"Hugo Lloris": "GK",
+			"Michel Vorm": "GK",
+			"Luke McGee": "GK"
+		},
+		"Stoke City": {
+			"Jack Butland": "GK",
+			"Shay Given": "GK",
+			"Daniel Bachmann": "GK",
+			"Jakob Haugaard": "GK",
+			"Dale Eve": "GK"
+		},
+		"Chelsea": {
+			"Thibaut Courtois": "GK",
+			"Asmir Begovic": "GK",
+			"Jamal Blackman": "GK"
+		},
+		"Manchester City": {
+			"Joe Hart": "GK",
+			"Claudio Bravo": "GK",
+			"Willy Caballero": "GK",
+			"Richard Wright": "GK"
+		},
+		"Crystal Palace": {
+			"Steve Mandanda": "GK",
+			"Julian Speroni": "GK",
+			"Alex McCarthy": "GK",
+			"Wayne Hennessey": "GK",
+			"Chris Kettings": "GK"
+		},
+		"Leicester City": {
+			"Ron-Robert Zieler": "GK",
+			"Kasper Schmeichel": "GK",
+			"Mark Schwarzer": "GK",
+			"Ben Hamer": "GK",
+			"Daniel Iversen": "GK"
+		},
+		"Watford": {
+			"Gomes": "GK",
+			"Costel Pantilimon": "GK",
+			"Giedrius Arlauskis": "GK",
+			"Rene Gilmartin": "GK"
+		},
+		"Southampton": {
+			"Fraser Forster": "GK",
+			"Maarten Stekelenburg": "GK",
+			"Alex McCarthy": "GK",
+			"Kelvin Davis": "GK",
+			"Paulo Gazzaniga": "GK",
+			"Harry Lewis": "GK"
+		},
+		"Bournemouth": {
+			"Artur Boruc": "GK",
+			"Adam Federici": "GK",
+			"Ryan Allsop": "GK"
+		},
+		"Everton": {
+			"Tim Howard": "GK",
+			"Maarten Stekelenburg": "GK",
+			"Joel Robles": "GK",
+			"Jindrich Stanek": "GK"
+		},
+		"Liverpool": {
+			"Loris Karius": "GK",
+			"Simon Mignolet": "GK",
+			"Adam Bogdan": "GK",
+			"Alexander Manninger": "GK",
+			"Danny Ward": "GK",
+			"Lawrence Vigouroux": "GK"
+		},
+		"Sunderland": {
+			"Costel Pantilimon": "GK",
+			"Vito Mannone": "GK",
+			"Jordan Pickford": "GK"
+		},
+		"Newcastle United": {
+			"Tim Krul": "GK",
+			"Matz Sels": "GK",
+			"Karl Darlow": "GK",
+			"Rob Elliot": "GK",
+			"Freddie Woodman": "GK"
+		},
+		"Aston Villa": {
+			"Brad Guzan": "GK",
+			"Mark Bunn": "GK",
+			"Benjamin Siegrist": "GK",
+			"Pierluigi Gollini": "GK"
+		},
+		"West Brom": {
+			"Ben Foster": "GK",
+			"Anders Lindegaard": "GK",
+			"Boaz Myhill": "GK",
+			"Jack Rose": "GK",
+			"Alex Palmer": "GK"
+		},
+		"West Ham": {
+			"Adrian": "GK",
+			"Darren Randolph": "GK",
+			"Raphael Spiegel": "GK"
+		},
+		"Swansea City": {
+			"Lukasz Fabianski": "GK",
+			"Gerhard Tremmel": "GK",
+			"Kristoffer Nordfeldt": "GK",
+			"Mark Birighitti": "GK",
+			"Oliver Davies": "GK"
+		},
+		"Norwich City": {
+			"John Ruddy": "GK",
+			"Declan Rudd": "GK",
+			"Michael McGovern": "GK",
+			"Paul Jones": "GK",
+			"Jake Kean": "GK",
+			"Remi Matthews": "GK",
+			"Ben Killip": "GK"
+		}
+	},
+	"2017": {
+		"Manchester United": {
+			"De Gea": "GK",
+			"Sergio Romero": "GK",
+			"Sam Johnstone": "GK",
+			"Joel Pereira": "GK"
+		},
+		"Tottenham Hotspur": {
+			"Hugo Lloris": "GK",
+			"Michel Vorm": "GK",
+			"Pau Lopez": "GK"
+		},
+		"Leicester City": {
+			"Kasper Schmeichel": "GK",
+			"Ron-Robert Zieler": "GK",
+			"Eldin Jakupovic": "GK",
+			"Ben Hamer": "GK",
+			"Daniel Iversen": "GK"
+		},
+		"Chelsea": {
+			"Thibaut Courtois": "GK",
+			"Asmir Begovic": "GK",
+			"Willy Caballero": "GK",
+			"Eduardo dos Reis Carv...": "GK",
+			"Bradley Collins": "GK",
+			"Mitchell Beeney": "GK"
+		},
+		"Arsenal": {
+			"Petr Cech": "GK",
+			"David Ospina": "GK",
+			"Matt Macey": "GK"
+		},
+		"Manchester City": {
+			"Claudio Bravo": "GK",
+			"Ederson": "GK",
+			"Willy Caballero": "GK",
+			"Angus Gunn": "GK"
+		},
+		"Stoke City": {
+			"Jack Butland": "GK",
+			"Shay Given": "GK",
+			"Lee Grant": "GK",
+			"Jakob Haugaard": "GK",
+			"Daniel Bachmann": "GK"
+		},
+		"Crystal Palace": {
+			"Steve Mandanda": "GK",
+			"Wayne Hennessey": "GK",
+			"Julian Speroni": "GK"
+		},
+		"West Ham United": {
+			"Joe Hart": "GK",
+			"Adrian": "GK",
+			"Darren Randolph": "GK",
+			"Raphael Spiegel": "GK"
+		},
+		"Burnley": {
+			"Tom Heaton": "GK",
+			"Paul Robinson": "GK",
+			"Adam Legzdins": "GK",
+			"Nick Pope": "GK",
+			"Conor Mitchell": "GK"
+		},
+		"Middlesbrough": {
+			"Victor Valdes": "GK",
+			"Darren Randolph": "GK",
+			"Brad Guzan": "GK",
+			"Dimitrios Konstantopo...": "GK",
+			"Mejias": "GK"
+		},
+		"Bournemouth": {
+			"Asmir Begovic": "GK",
+			"Artur Boruc": "GK",
+			"Adam Federici": "GK",
+			"Ryan Allsop": "GK",
+			"Jordan Holmes": "GK",
+			"Patrick O'Flaherty": "GK"
+		},
+		"Liverpool": {
+			"Loris Karius": "GK",
+			"Simon Mignolet": "GK",
+			"Alexander Manninger": "GK"
+		},
+		"Southampton": {
+			"Fraser Forster": "GK",
+			"Alex McCarthy": "GK",
+			"Mouez Hassen": "GK"
+		},
+		"Everton": {
+			"Maarten Stekelenburg": "GK",
+			"Jordan Pickford": "GK",
+			"Joel Robles": "GK",
+			"Russell Griffiths": "GK"
+		},
+		"Watford": {
+			"Costel Pantilimon": "GK",
+			"Gomes": "GK",
+			"Giedrius Arlauskis": "GK",
+			"Daniel Bachmann": "GK",
+			"Rene Gilmartin": "GK"
+		},
+		"West Bromwich Albion": {
+			"Ben Foster": "GK",
+			"Boaz Myhill": "GK",
+			"Jack Rose": "GK",
+			"Alex Palmer": "GK"
+		},
+		"Swansea City": {
+			"Lukasz Fabianski": "GK",
+			"Gerhard Tremmel": "GK",
+			"Erwin Mulder": "GK",
+			"Kristoffer Nordfeldt": "GK",
+			"Mark Birighitti": "GK",
+			"Oliver Davies": "GK"
+		},
+		"Sunderland": {
+			"Jordan Pickford": "GK",
+			"Vito Mannone": "GK",
+			"Robbin Ruiter": "GK",
+			"Mika": "GK",
+			"Jason Steele": "GK",
+			"Maksymilian Stryjek": "GK"
+		},
+		"Hull City": {
+			"David Marshall": "GK",
+			"Allan McGregor": "GK",
+			"Dusan Kuciak": "GK",
+			"Eldin Jakupovic": "GK"
+		}
+	}
+}
