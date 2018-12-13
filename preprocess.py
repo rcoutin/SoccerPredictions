@@ -15,7 +15,6 @@ onehot_encoder = OneHotEncoder(sparse=False)
 
 from sklearn.feature_selection import f_classif, SelectKBest 
 
-
 def PCA(X,num_components):
     from sklearn.decomposition import PCA
     pca = PCA(n_components=num_components, svd_solver='full')

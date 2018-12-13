@@ -1,7 +1,7 @@
 # Team attribute based data creation pipeline
 import pandas as pd
 from common import * 
-#from preprocess import *
+from preprocess import *
 #from models import *
 
 home_adv_factor = 1
@@ -43,6 +43,11 @@ def get_features(team):
 def get_feats_data(years):
         
     d = create_match_data(years, create_team, get_features)
-    return (d[attr_cols],d['Result'])
+
+    s = stdize(d, [ pre + attr for pre in ['h_','a_'] for attr in attr_cols])
+    diffs = diff_attrs(s,attr_cols)
+    return (diffs[attr_cols],d['Result'])
 
     #norm_tr_data = normalize(tr_data, x_norm_cols)
+
+get_feats_data(['2014'])

@@ -1,5 +1,6 @@
 import pandas as pd
 from common import * 
+from preprocess import * 
 
 #full_team = data[data['Team'].str.startswith(name)]
 attr_cols =[str(i) for i in range(0,11)]
@@ -64,8 +65,15 @@ def create_team(full_team):
     return df_start
 
 def get_fieldpos_data(years):
-        
+
     d = create_match_data(years, create_team, get_features)
-    return (d[attr_cols],d['Result'])
+
+    s = stdize(d, [ pre + attr for pre in ['h_','a_'] for attr in attr_cols])
+    diffs = diff_attrs(s,attr_cols)
+
+    print(diffs[attr_cols])
+    return (diffs[attr_cols],d['Result'])
 
     #norm_tr_data = normalize(tr_data, x_norm_cols)
+
+get_fieldpos_data(['2014'])

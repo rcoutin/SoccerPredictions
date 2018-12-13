@@ -111,8 +111,10 @@ def get_teams_feature_diff(i,row,home_attrs,away_attrs,team_form):
     attrs = {}
    
     for key in home_attrs.keys():
-        attrs[str(key)] = float(home_attrs[key]) - float(away_attrs[key])
-        #attrs['a_'+str(key)] = 
+       # attrs[str(key)] = float(home_attrs[key]) - float(away_attrs[key])
+        attrs['h_'+str(key)] = float(home_attrs[key])
+        attrs['a_'+str(key)] =  float(away_attrs[key])
+
         
     # attrs['h_form'] = team_form[row['HomeTeam']]
     # attrs['a_form'] = team_form[row['AwayTeam']]
@@ -168,4 +170,9 @@ def create_match_data(years,create_team,get_features):
     return full_res_df
 
     
-def 
+def diff_attrs(df,attrs):
+
+    for key in attrs:
+       # attrs[str(key)] = float(home_attrs[key]) - float(away_attrs[key])
+        df[str(key)] = df['h_'+str(key)] - df['a_'+str(key)]
+    return df
