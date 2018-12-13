@@ -1,6 +1,8 @@
 from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.metrics import classification_report, accuracy_score, f1_score, precision_score, recall_score
 import matplotlib.pyplot as plt
+import itertools
+import numpy as np
 def evaluate_svm(x_train,y_train,x_test,y_test):
     C_array = np.logspace(-3, 3, 15)
     gamma_array = np.logspace(-9, 3, 15)
@@ -20,8 +22,6 @@ def evaluate_svm(x_train,y_train,x_test,y_test):
     
     print(results)
         
-
-
 def plot_confusion_matrix(cm, classes,
                           normalize=False,
                           title='Confusion matrix',
