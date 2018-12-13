@@ -13,14 +13,17 @@
 from sklearn.preprocessing import OneHotEncoder
 onehot_encoder = OneHotEncoder(sparse=False)
 
+from sklearn.feature_selection import f_classif, SelectKBest 
+
+
 def PCA(X,num_components):
     from sklearn.decomposition import PCA
     pca = PCA(n_components=num_components, svd_solver='full')
     return pca.fit_transform(X)  
     
-def selectKBest(X,Y,num_features):
-    from sklearn.feature_selection import f_classif, SelectKBest 
-    return SelectKBest(k = num_features).fit_transform(X,Y)
+def selectKBest(num_features):
+    
+    return SelectKBest(k = num_features)
 
 def quantile_bin(df,bin_cols,bins):
     """Quality Binning using Pandas for all the columns in the bin_cols list

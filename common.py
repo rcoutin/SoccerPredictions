@@ -118,7 +118,11 @@ def get_teams_feature_diff(i,row,home_attrs,away_attrs,team_form):
     # attrs['a_form'] = team_form[row['AwayTeam']]
     attrs['Home_Team'] = row['HomeTeam']
     attrs['Away_Team'] = row['AwayTeam']
-    attrs['Result'] = 1 if row['FTHG'] - row['FTAG'] > 0  else (3 if row['FTHG'] - row['FTAG'] < 0 else 2)
+    
+    if str(row['FTHG']).strip() == "":
+        attrs['Result'] == 4
+    else:
+        attrs['Result'] = 1 if row['FTHG'] - row['FTAG'] > 0  else (3 if row['FTHG'] - row['FTAG'] < 0 else 2)
     attrs['Game_Week'] = (i//10) + 1
     # norm_attrs['FTHG'] = row['FTHG']
     # norm_attrs['FTAG'] = row['FTAG']
@@ -141,6 +145,7 @@ def create_match_data(years,create_team,get_features):
         i = 0
         res_df = pd.DataFrame()
         f = get_fixtures(year)
+        #f = f[~f['FTHG'].isnull()]
     
         team_form = {name:60 for name in f['HomeTeam'].unique()}
         
@@ -163,3 +168,4 @@ def create_match_data(years,create_team,get_features):
     return full_res_df
 
     
+def 
